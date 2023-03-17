@@ -15,7 +15,7 @@ function Checkout() {
 
   // this is only required for form validation demo
   useEffect(()=> {
-    alert("Enter 'First Name' only !");
+    // alert("Enter 'First Name' only !");
       window.scrollTo(0, 0);
     },[]);
 
