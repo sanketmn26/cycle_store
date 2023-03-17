@@ -1,0 +1,405 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  /* max-width: 1600px; */
+  margin: auto;
+}
+
+::selection {
+  color: white;
+  background-color: rgb(223, 62, 188);
+}
+
+
+.card-link {
+  text-decoration: none;
+}
+
+.card-link,
+.card-title:hover {
+  color: #212529 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Racing Sans One', cursive;
+}
+
+.btn {
+  background-color: rgb(173, 25, 141) !important;
+}
+
+.btn:hover {
+  background: rgb(209, 28, 170) !important;
+}
+
+.fa-record-vinyl {
+  color: rgb(173, 25, 141);
+}
+
+.navbar-nav {
+  margin: auto;
+  font-size: 25px;
+}
+
+.navbar {
+  width: 100%;
+  position: absolute;
+  background-color: rgb(255, 255, 255, 0) !important;
+  padding-right: 5%;
+  padding-left: 5%;
+  z-index: 100;
+}
+
+.nav-item {
+  font-size: 18px;
+  font-weight: 500 !important;
+}
+
+.nav-link:hover {
+  color: rgb(223, 62, 188) !important;
+}
+
+#cart-btn {
+  background-color: rgb(10, 12, 10, 0) !important;
+  position: relative;
+  width: 52px;
+  height: 40px;
+  padding-left: 10px;
+  top:4px;
+}
+
+#item-num {
+  width: 20px;
+  font-weight: 400;
+  font-size: small;
+  text-align: center;
+  background-color: rgb(92, 91, 91);
+  display: inline;
+  border-radius: 50%;
+  box-sizing: content-box;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+#user-btn{
+  padding-top: 5px;
+}
+
+#item-icon {
+  position: absolute;
+  bottom: 6px;
+}
+
+.user:hover {
+  cursor: pointer;
+}
+
+#main {
+  background-image: linear-gradient(90deg, rgba(12, 12, 12, 0.5) 50%, rgba(209, 28, 170, 0.5) 50%), url(./images/bicycle-2.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+#main2 {
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#main3 {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 110vh;
+  width: 100%;
+}
+
+#sub-main3 {
+  background-image: linear-gradient(to bottom, rgba(15, 15, 15, 0.65) 60%, rgb(22, 22, 22) 100%);
+  /* background-image: linear-gradient(to bottom, rgba(48, 45, 47, 0.5) 60%, rgb(48, 45, 47, 1) 100%); o */
+  /* background-image: linear-gradient(to bottom, rgba(78, 13, 64, 0.2) 60%, rgb(78, 13, 64, 1) 100%); */
+  height: 110vh;
+  width: 100%;
+}
+
+#banner {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 22rem;
+  width: 100%;
+}
+
+#sub-banner {
+  background-image: linear-gradient(to bottom, rgba(15, 15, 15, 0.5) 60%, rgb(22, 22, 22) 100%);
+  height: 100%;
+  width: 100%;
+}
+
+.main4 {
+  width: 100%;
+  height: auto;
+}
+
+.specs {
+  background-position: center;
+  background-size: cover;
+}
+
+.about {
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  opacity: 0;
+}
+
+.specs:hover .overlay {
+  opacity: 0.3;
+}
+
+.about:hover .overlay {
+  opacity: 0.3;
+}
+
+#main5 {
+  width: 100%;
+  height: 110vh;
+  background-color: #dfdfdf;
+}
+
+#main6 {
+  width: 100%;
+  height: auto;
+  background-color: #dfdfdf;
+
+}
+
+#footer {
+  width: 100%;
+  background-color: #161616;
+  height: auto;
+}
+
+.fa-brands {
+  color: white !important;
+}
+
+.form-check-input {
+  border: 2px solid black;
+}
+
+.form-check-input:checked {
+  background-color: rgb(223, 62, 188);
+  border-color: rgb(223, 62, 188);
+}
+
+.form-check-label,
+.form-check-input:hover {
+  cursor: pointer !important;
+}
+
+.form-check-input:focus {
+  box-shadow: 0 0 10px rgb(223, 62, 188) !important;
+}
+
+.quantityUpdate:hover {
+  color: rgb(223, 62, 188);
+}
+
+i {
+  cursor: pointer;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: rgb(223, 62, 188);
+}
+
+#yt-video-div {
+  width: 100%;
+  height: auto;
+  background-color: #dfdfdf;
+
+}
+
+
+
+
+/* Media Query Starts */
+
+@media screen and (max-width:993px) {
+
+  .nav-container {
+    padding-left: 0;
+    padding-right: 0;
+
+  }
+
+  .navbar-toggler {
+    margin-right: 2%;
+  }
+
+  .navbar-brand,
+  .navbar ul,
+  .navbar i {
+    margin-left: 2%;
+  }
+
+  .navbar-collapse button {
+    margin-left: 50px;
+  }
+
+  .navbar {
+    width: 100%;
+    position: absolute;
+    background-color: rgb(255, 255, 255, 0) !important;
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+
+  .navbar-collapse {
+    width: 100%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    background-color: white;
+  }
+
+  .navbar-nav a {
+    color: #000000 !important;
+  }
+
+  .fa-user {
+    margin-top: 2%;
+    color: #000000 !important;
+  }
+
+  .fa-cart-shopping {
+    color: #000000 !important;
+  }
+
+  .offcanvas {
+    width: 80% !important;
+  }
+
+  .pcard{
+    margin: auto !important;
+  }
+
+  #main {
+    height: 85vh;
+  }
+
+  #main2 {
+    padding-left: 2%;
+  }
+
+  #main3,
+  #sub-main3 {
+    height: 85vh;
+  }
+
+  #main5 {
+    height: 90vh;
+  }
+
+  #main5 h1 {
+    font-size: 40px !important;
+  }
+
+  .bottom-div {
+    width: 90% !important;
+  }
+
+  .bottom-div1 h2 {
+    font-size: 50px !important
+  }
+
+  .about-vdo {
+    width: 90% !important;
+  }
+
+  .carousel-inner img {
+    height: 340px !important;
+  }
+}
+
+
+@media screen and (max-width:769px) {
+
+  h1 {
+    font-size: 55px !important;
+  }
+
+  .specs {
+    height: 250px !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+
+  }
+
+  .footer2,
+  .footer3 {
+    border-top: 1px gray solid;
+    padding-top: 15px;
+  }
+
+  .about-vdo {
+    width: 95% !important;
+  }
+
+  .about {
+    height: 20rem !important;
+  }
+
+  #yt-video-div h1 {
+    font-size: 45px !important;
+  }
+
+  .carousel-inner img {
+    height: 280px !important;
+  }
+
+}
+
+
+@media screen and (max-width:579px) {
+
+ 
+  #main5 {
+    height: 65vh;
+  }
+
+  #yt-video-div h1 {
+    font-size: 35px !important;
+  }
+
+  .carousel-inner img {
+    height: 200px !important;
+  }
+
+}
+
+@media only screen and (orientation: landscape) and (max-width:993px) {
+  
+  #main{
+    height: auto;
+  }
+
+  #main3, #sub-main3{
+    height: auto;
+  }
+}
